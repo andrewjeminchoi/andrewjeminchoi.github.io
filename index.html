@@ -82,8 +82,8 @@
                     <p>
                         I am a graduate student at the University of Toronto's <a href="http://web.cs.toronto.edu/">Department of Computer Science</a>, where I work with Prof. <a href="http://www.cs.toronto.edu/~fanl/">Fan Long</a>. I am broadly interested in 
                         <a href="https://en.wikipedia.org/wiki/Software_engineering">software engineering</a>, <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed systems</a>, and <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>. 
-                        I was previously a Software Intern at <a href="https://google.com">Google</a> and <a href="https://amazon.com">Amazon</a> where I worked on Software Defined Network (SDN) routing, AWS DynamoDB, and IoT authentication systems. <br/>
-                        I'm always looking for new opportunities to learn and grow. You can reach me by <a href="mailto:aj.choi@mail.utoronto.ca">email</a> or on<a href="https://www.linkedin.com/in/ajchoi/"> LinkedIn</a> if you'd like to talk! 
+                        I was previously a Software Intern at <a href="https://google.com">Google</a> and <a href="https://amazon.com">Amazon</a> where I worked on Software Defined Network (SDN) routing, AWS DynamoDB, and IoT authentication systems. <br/><br/>
+                        You can reach me by <a href="mailto:aj.choi@mail.utoronto.ca">email</a> or on<a href="https://www.linkedin.com/in/ajchoi/"> LinkedIn</a> if you'd like to talk! 
                     </p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>University of Toronto</h3>
-            <span class="education-date"><i>Spring 2021 (expected)</i></span>
+            <span class="education-date"><i>Winter 2021 (expected)</i></span>
             <h4>Master (M.Sc.) in Computer Science</h4>
             <ul>
                 <li><b>Interests: </b>Software Engineering, Distributed Systems, Blockchain</li>
@@ -171,29 +171,30 @@
                 </ul>
             </div>   
 
-            <div data-date="Summer 2019">
-                <h3>Amazon (AWS)</h3>
+            <div data-date="Summer 2018, 2019">
+                <h3>Amazon Web Services (AWS)</h3>
                 <h4>SDE Intern</h4>
                 <ul>
                     <li>Worked on the Amazon DynamoDB team to develop an EC2 host management tool for table indexing requests</li>
                     <li>Created an internal Java client library for REST APIs to monitor and replace unhealthy hosts, reducing tickets to manually migrate stale instances</li>
+                    <li>Worked on the AWS IoT team to streamline the on-boarding process for things and devices using the AWS Python SDK and IoT SDK</li>
                 </ul>
             </div>  
                       
-            <div data-date="Summer 2018">
+            <!-- <div data-date="Summer 2018">
                 <h3>Amazon (AWS)</h3>
                 <h4>Software Development Engineer Intern</h4>
                 <ul>
                     <li>Worked on the AWS IoT team to streamline the on-boarding process for things and devices using the AWS Python SDK and IoT SDK</li>
                 </ul>
-            </div>
+            </div> -->
 
             <div data-date="Summer 2017">
                 <h3>UCLA</h3>
                 <h4>Research Student at the Statistical and Relational Artificial Intelligence Lab</h4>
                 <ul>
                     <li>Explored new ways to perform faster inference on Bayesian Networks by compiling networks into hardware and optimizing graph structures</li>
-                    <li>Developed a Python/C tool that was 8 times faster than the state-of-the-art algorithm in finding marginal probabilities by compiling and optimizing feed-forward arithmetic circuits</li>
+                    <li>Developed a Python/C tool in finding marginal probabilities by compiling and optimizing feed-forward arithmetic circuits</li>
                     <li>Research abstract accepted to the <a href="http://rucs.ca/a-feed-forward-algorithm-for-arithmetic-circuits">2017-2018 issue of RUCS</a></li>
                 </ul>
             </div>
@@ -202,9 +203,8 @@
                 <h3>Safran Electronics and Defense</h3>
                 <h4>Software Engineering Intern</h4>
                 <ul>
-                    <li>Designed and documented architecture diagrams for over 1000 functions for the Control Gear and Power Unit libraries, written in C and Assembly</li>
-                    <li>Developed a Python program to efficiently parse aviation requirements and cross-check data flow in the code, reducing documentation errors by 50%</li>
-                    <li>Received the <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/Experience-Experience_eng.asp">NSERC Experience Award</a>, valued at $5625, for undertaking an industrial research project in software engineering</li>
+                    <li>Designed and documented architecture diagrams for avionic software on Bombardier jets, written in C and Assembly, and developed Python scripts to parse aviation requirements and cross-check data flow</li>
+                    <li>Received the <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/Experience-Experience_eng.asp">NSERC Experience Award</a>, for undertaking an industrial research project in software engineering</li>
                 </ul>
             </div>
 
@@ -234,7 +234,7 @@
                     <div class="project-info">
                         <h3>Friendle</h3>
                         <p>
-                            In a team of 4, I worked on the backend for a matching/hangout suggestion app to help those with social anxiety. We deployed the backend on GCP Cloud Functions (server-less) and integrated it with the Firestore database. Our project also received 1st place for the Telus Mental Health Hack and 2nd place overall at UoftHacks VIII.<br/><br/>
+                            In a team of 4, I worked on the backend for a matching/hangout suggestion app to help those with social anxiety. We deployed the backend on GCP Cloud Functions (serverless) and integrated it with Firestore. Our project received Telus' Best Mental Health Hack and 2nd place overall at UoftHacks VIII.<br/><br/>
 
                             <a href="https://devpost.com/software/friendle-zm8i0n">Check us out on Devpost!</a>
                         </p>
@@ -252,7 +252,7 @@
                     <div class="project-info">
                         <h3>Recordr.ai: Face-tracking Video Recorder</h3>
                         <p>
-                            In a team of 4, I helped develop an automated video recording app. We used FaceNet and PoseNet, implemented in Tensorflow and hosted on an EC2 instance, to recognize the speakers' faces and detect gesture-based commands. To communicate with the neural nets, we used AWS IoT to receive real-time commands from the EC2 and relay them to an Arduino motor with a smartphone mount. <br/>
+                            In a team of 4, I developed a face-tracking video recording app for my capstone project. We used FaceNet and PoseNet, hosted on an EC2 instance, to recognize the speakers' faces and detect gesture-based commands. To communicate with the neural nets, we used AWS IoT to receive real-time commands from the EC2 and relay them to an Arduino motor with a smartphone mount. <br/>
 
                             You can see a demo of the project here: <a href="https://drive.google.com/open?id=1wKK25inRpOhEMdCsxCwcbUTOpZBFBiyM">Google Drive</a>
                         </p>
@@ -261,64 +261,6 @@
                 </div>
                 <!-- End .project -->
 
-                <!-- Search Engine -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/AA-logo.png" alt="Search Engine logo"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Search Engine & Website Crawler (Python)</h3>
-                        <p>
-                            I created a search engine with the <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a> algorithm. I used Bottle and Google OAuth to handle sessions and allow users to sign-in using their Google credentials. The backend crawled webpages, made queries using SQLite and was hosted on an AWS EC2 instance. 
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <!-- Face Average -->
-                <!-- <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/kpop_idol_facemash.jpg" alt="K-Pop idol face average"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>Face Averaging with OpenCV (Python)</h3>
-                        <p>
-                            I worked on a Python program to detect facial features using the dlib landmark detector, and used it to create mash-ups of different facial images. The image here is the "average" face of 9 female K-pop idols.
-                        </p>
-                        <a href="https://github.com/andrewjeminchoi/simple-face-average">View Project on Github</a>
-                    </div>
-                </div> -->
-                <!-- End .project -->
-
-                <!-- OSM Mapper -->
-                <!-- <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/mapper.jpg" alt="Mapping software"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>Mapping the City of Toronto (C++)</h3>
-                        <p>
-                            In a team of 3, I worked on a C++ mapping program on Linux using the OpenStreetMap APIs. The program had an interactive user interface (with EasyGL) and found optimized delivery routes (approximating solutions for the Travelling Salesman Problem).
-                        </p>
-                    </div>
-                </div> -->
-                <!-- End .project -->
-
-                <!-- Markus Database -->
-                <!-- <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/databases.jpg" alt="Databases"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>MarkUs Teaching Database (Java, PostgreSQL)</h3>
-                        <p>
-                            I worked on a Java program to make queries in the <a href="https://github.com/MarkUsProject">MarkUs database</a> to determine marks for students, and assign groups based on course performance. The program made queries by using PostgreSQL with JDBC.
-                        </p>
-                    </div>
-                </div> -->
-                <!-- End .project -->
 
                 <!-- Crunch (Verilog) -->
                 <div class="project shadow-large">
@@ -329,7 +271,7 @@
                     <div class="project-info">
                         <h3>Crunch: A reaction-based video game (Verilog)</h3>
                         <p>
-                            In a team of two, my partner and I created a game where users control an alligator to avoid obstacles. The game used multiple FSMs (Finite State Machine) for the graphics and varying levels.
+                            My friend and I created a game where users control an alligator to avoid obstacles. The game was programmed on Altera DE1 SoCs to have graphics and varying challenges for players.
                         </p>
                     </div>
                     <!-- End .project-info -->
