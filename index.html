@@ -47,9 +47,9 @@
             <li>
                 <a href="#projects">Projects</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#skills">Skills</a>
-            </li>
+            </li> -->
         </ul>
     </header>
     <!-- End header -->
@@ -92,11 +92,81 @@
     </div>
     <!-- End #about -->
 
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div class="education-block">
+            <h3>Algorand</h3>
+            <span class="education-date"><i>2021 - Present</i></span>
+            <h4>Software Engineer (<a href="https://github.com/algochoi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> @algochoi</a>)</h4>
+            <ul>
+                <li> Worked on open-sourced <a href="https://github.com/algochoi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> go-algorand</a> consensus protocols, compilers, tools, and infrastructure in Go for a $10B market cap blockchain startup, founded by Turing Award Cryptographer Silvio Micali</li>
+                <li>Designed and implemented parts of the AVM to allow safer & better programmability and interoperability for smart contracts</li>
+                <li>Developed features, integrated Cucumber tests, and maintained infrastructure in CircleCI for the Algorand Python/JS SDK</li>
+                <li>Introduced new AVM 1.1+ features (recursive inner contract calls) for the Algorand database indexer and Chrome Web debugger</li>
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>Google</h3>
+            <span class="education-date"><i>Summer 2020</i></span>
+            <h4>Software Engineer Intern</h4>
+            <ul>
+                <li>Worked on the Google Cloud Networking team to develop an OpenConfig service in Go to aggregate and stream networking information for vendor-neutral routers</li>
+                <li>Created a client that asynchronously streams events from the service using gNMI/gRPC APIs to log abnormal network activity
+                </li>
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>Amazon Web Services (AWS)</h3>
+            <span class="education-date"><i>Summer 2018, 2019</i></span>
+            <h4>Software Development Engineer Intern</h4>
+            <ul>
+                <li>Summer 2019</li>
+                <ul>
+                    <li>Worked on the Amazon DynamoDB team to develop an EC2 host management tool for table indexing requests</li>
+                    <li>Created an internal Java client library for REST APIs to monitor and replace unhealthy hosts, reducing tickets to manually migrate stale instances</li>
+                </ul>
+                <li>Summer 2018</li>
+                <ul>
+                    <li>Worked on the AWS IoT team to streamline the on-boarding process for things and devices using the AWS Python SDK and IoT SDK</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>UCLA</h3>
+            <span class="education-date"><i>Summer 2017</i></span>
+            <h4>Research Student at the <a href="http://starai.cs.ucla.edu">Statistical and Relational Artificial Intelligence Lab</a></h4>
+            <ul>
+                <li>Explored new ways to perform faster inference on Bayesian Networks by compiling networks into hardware and optimizing graph structures</li>
+                <li>Developed a Python/C tool in finding marginal probabilities by compiling and optimizing feed-forward arithmetic circuits</li>
+                <li>Research abstract accepted to the <a href="http://rucs.ca/a-feed-forward-algorithm-for-arithmetic-circuits">2017-2018 issue of RUCS</a></li>
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>Safran</h3>
+            <span class="education-date"><i>Summer 2016</i></span>
+            <h4>Software Engineering Intern</a></h4>
+            <ul>
+                <li>Designed and documented architecture diagrams for avionic software on Bombardier jets, written in C and Assembly, and developed Python scripts to parse aviation requirements and cross-check data flow</li>
+                <li>Received the NSERC Experience Award, for undertaking an industrial research project in software engineering, as part of UofT's <a href="https://imdi.mie.utoronto.ca/">Institute for Multidisciplinary Design and Innovation</a></li>
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>University of Toronto Engineering Outreach</h3>
+            <span class="education-date"><i>Summer 2015</i></span>
+            <h4>JR DEEP STEM and Python Instructor</h4>
+            <ul>
+                <li>Designed and delivered a Computer Engineering course in Python to over 120 students at <a href="http://outreach.engineering.utoronto.ca/pre-university-programs/jr-deep/">Jr. DEEP</a>, UofT’s engineering summer camp</li>
+                <li>Led science and engineering workshops for elementary students across the Greater Toronto Area</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End #experience -->
+
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>University of Toronto</h3>
-            <span class="education-date"><i>Winter 2021</i></span>
+            <span class="education-date"><i>Conferred: 2021</i></span>
             <h4>Master (M.Sc.) in Computer Science</h4>
             <ul>
                 <li><b>Interests: </b>Software Engineering, Distributed Systems, Blockchain</li>
@@ -141,7 +211,7 @@
 
         <div class="education-block">
             <h3>University of Toronto</h3>
-            <span class="education-date"><i>Spring 2019</i></span>
+            <span class="education-date"><i>Conferred: 2019</i></span>
             <h4>Bachelor (B.A.Sc.) in Computer Engineering with Honours</h4>
             <ul>
                 <li><b>Dean's List: </b>Fall 2014 - Spring 2019</li>
@@ -169,66 +239,6 @@
         </div>
     </div>
     <!-- End #education -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Summer 2020">
-                <h3>Google</h3>
-                <h4>SWE Intern</h4>
-                <ul>
-                    <li>Worked on the Google Cloud Networking team to develop an OpenConfig service in Go to aggregate and stream networking information using gNMI/gRPC APIs</li>
-                </ul>
-            </div>   
-
-            <div data-date="Summer 2018, 2019">
-                <h3>Amazon Web Services (AWS)</h3>
-                <h4>SDE Intern</h4>
-                <ul>
-                    <li>Worked on the Amazon DynamoDB team to develop an EC2 host management tool for table indexing requests</li>
-                    <li>Created an internal Java client library for REST APIs to monitor and replace unhealthy hosts, reducing tickets to manually migrate stale instances</li>
-                    <li>Worked on the AWS IoT team to streamline the on-boarding process for things and devices using the AWS Python SDK and IoT SDK</li>
-                </ul>
-            </div>  
-                      
-            <!-- <div data-date="Summer 2018">
-                <h3>Amazon (AWS)</h3>
-                <h4>Software Development Engineer Intern</h4>
-                <ul>
-                    <li>Worked on the AWS IoT team to streamline the on-boarding process for things and devices using the AWS Python SDK and IoT SDK</li>
-                </ul>
-            </div> -->
-
-            <div data-date="Summer 2017">
-                <h3>UCLA</h3>
-                <h4>Research Student at the Statistical and Relational Artificial Intelligence Lab</h4>
-                <ul>
-                    <li>Explored new ways to perform faster inference on Bayesian Networks by compiling networks into hardware and optimizing graph structures</li>
-                    <li>Developed a Python/C tool in finding marginal probabilities by compiling and optimizing feed-forward arithmetic circuits</li>
-                    <li>Research abstract accepted to the <a href="http://rucs.ca/a-feed-forward-algorithm-for-arithmetic-circuits">2017-2018 issue of RUCS</a></li>
-                </ul>
-            </div>
-
-            <div data-date="Summer 2016">
-                <h3>Safran Electronics and Defense</h3>
-                <h4>Software Engineering Intern</h4>
-                <ul>
-                    <li>Designed and documented architecture diagrams for avionic software on Bombardier jets, written in C and Assembly, and developed Python scripts to parse aviation requirements and cross-check data flow</li>
-                    <li>Received the <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/Experience-Experience_eng.asp">NSERC Experience Award</a>, for undertaking an industrial research project in software engineering</li>
-                </ul>
-            </div>
-
-            <div data-date="Summer 2015">
-                <h3>University of Toronto Engineering Outreach</h3>
-                <h4>Python Instructor</h4>
-                <ul>
-                    <li>Designed and delivered a Computer Engineering course in Python to over 120 students at <a href="http://outreach.engineering.utoronto.ca/pre-university-programs/jr-deep/">Jr. DEEP</a>, UofT’s engineering summer camp</li>
-                    <li>Led science and engineering workshops for elementary students across the Greater Toronto Area</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -292,7 +302,7 @@
     </div>
     <!-- End #projects -->
 
-    <div id="skills">
+    <!-- <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
             <li>C</li>
@@ -305,7 +315,7 @@
             <li>Linux</li>
             <li>Git</li>
         </ul>
-    </div>
+    </div> -->
     <!-- End #skills -->
 
     <footer>
